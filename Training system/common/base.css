@@ -1,0 +1,55 @@
+[class^="icon_"] {
+  background: url(/static/sprites.png) no-repeat;
+  background-size: 200px 200px;
+}
+[class^="tra_"] {
+  background: url(/static/20.jpg) no-repeat;
+  background-size: 400px 200px;
+}
+/* radio 边框颜色 */
+uni-radio .uni-radio-input {
+  width: 16px;
+  height: 16px;
+  border: 2rpx solid rgba(166, 175, 255, 0.5)!important; 
+}
+
+/* radio 选中后的边框颜色 */
+uni-radio .uni-radio-input-checked {
+  border: 2rpx solid #CACFFF!important;
+  background-color: #556FFE!important;
+}
+
+/* radio 选中后的图标样式 */
+uni-radio .uni-radio-input.uni-radio-input-checked::before {
+  display: block;
+  content: "";
+  width: 16rpx;
+  height: 16rpx;
+  background: #fff;
+  border-radius: 20rpx;
+}
+
+
+uni-checkbox .uni-checkbox-input {
+  width: 16px;
+  height: 16px;
+  border-radius: 8rpx;
+  border: 2rpx solid rgba(166, 175, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0)!important;
+  transform: rotateZ(360deg);
+  pointer-events: nane;
+}
+
+/* checkbox 选中后的边框颜色 */
+uni-checkbox .uni-checkbox-input-checked {
+  border: 2rpx solid #CACFFF!important;
+  background-color: #556FFE!important;
+  transform: rotateZ(360deg);
+}
+
+/* checkbox 选中后的图标样式 */
+uni-checkbox .uni-checkbox-input-checked::before {
+  font-size: 12px!important;
+  font-weight: bold;
+  color: #fff;
+}
