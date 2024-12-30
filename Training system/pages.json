@@ -1,0 +1,160 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/start/start",
+			"style": {
+				"navigationBarTitleText": "学习使我快乐"
+			}
+		},
+		{
+			"path": "pages/training/training",
+			"style": {
+				"navigationBarTitleText": "答题"
+			}
+		},
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/index/news",
+			"style": {
+				"navigationBarTitleText": "新闻详细"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		
+		{
+			"path": "pages/training/amend",
+			"style": {
+				"navigationBarTitleText": "错题本"
+			}
+		},
+		{
+			"path": "pages/training/dailyTraining",
+			"style": {
+				"navigationBarTitleText": "每日答题"
+			}
+		},
+		{
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "考试"
+			}
+		},
+		{
+			"path": "pages/training/sequenceTraining",
+			"style": {
+				"navigationBarTitleText": "请选择题目"
+			}
+		},
+		{
+			"path": "pages/training/practise",
+			"style": {
+				"navigationBarTitleText": "专项答题"
+			}
+		},
+		{
+			"path": "pages/test/testIndex",
+			"style": {
+				"navigationBarTitleText": "开始考试"
+			}
+		},
+		
+		{
+			"path" : "pages/my/myInformation",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的信息",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+			
+		},
+		{
+			"path" : "pages/training/upTraining",
+			"style" : 
+			{
+				"navigationBarTitleText" : "上传题目"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "rgba(254, 204, 203, 1.0)",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"pullToRefresh": {
+				"style": "circle",
+				"color": "#fecccb"
+			}
+		}
+	},
+	"tabBar": {
+		"color": "#494949",
+		"selectedColor": "#ff6a9a",
+		"backgroundColor": "#fff",
+		"iconfontSrc": "/static/icon/iconfont.ttf",
+		"height": "60px",
+		"borderStyle": "black",
+		"list": [
+			{
+				"text": "练习",
+				"pagePath": "pages/training/training",
+				"iconPath": "static/logo.png",
+				"iconfont": {
+					"text": "\ue622",
+					"selectedText": "\ue622",
+					"color": "#494949",
+					"selectedColor": "#ff6a9a"
+				}
+			},
+			{
+				"text": "考试",
+				"pagePath": "pages/test/test",
+				"iconPath": "static/logo.png",
+				"iconfont": {
+					"text": "\ue633",
+					"selectedText": "\ue633",
+					"color": "#494949",
+					"selectedColor": "#ff6a9a"
+				}
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/logo.png",
+				"iconfont": {
+					"text": "\ue78b",
+					"selectedText": "\ue78b",
+					"color": "#494949",
+					"selectedColor": "#ff6a9a"
+				}
+			}
+		]
+	},
+	"uniIdRouter": {}
+	//colss #fd6967 #ff6a9a #fecccb rgba(254, 204, 203, 1.0) rgba(254, 156, 156, 0.5) #e29bdb #e278d4
+	
+
+}
